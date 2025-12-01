@@ -8,3 +8,4 @@ class ServiceRecord:
         self.member_num = member_num
         self.service_code = service_code
         self.comments = comments
+
