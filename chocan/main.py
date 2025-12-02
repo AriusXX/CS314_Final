@@ -15,7 +15,7 @@ def main_menu():
 
 def main():
     directory = ServiceDirectory()
-
+    member = Member()
     while True:
         choice = main_menu()
 
