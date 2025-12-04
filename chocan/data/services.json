@@ -1,10 +1,10 @@
 {
     "598470": {
         "name": "Dietitian Session",
-        "fee": 45.0
+        "fee": 45.00
     },
     "883948": {
         "name": "Aerobics Exercise Session",
-        "fee": 25.0
+        "fee": 25.00
     }
 }

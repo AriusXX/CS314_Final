@@ -1,0 +1,10 @@
+Member name: Alice Example
+Member number: 111111111
+Address: 123 Main St, Portland, OR 97201
+
+Service Date: 07-30-2025
+Provider Number: 123456789
+Service Name: Dietitian Session
+Fee: $45.00
+
+Total Fee for Member: $45.00

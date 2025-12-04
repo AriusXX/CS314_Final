@@ -1,20 +1,17 @@
 # models/service_directory.py
 
 import json
+import os
 
 class ServiceDirectory:
 
     def __init__(self):
-        self.services = self.load_services()
+        file_path = os.path.join(os.path.dirname(__file__), "..", "data", "services.json")
+        file_path = os.path.abspath(file_path)
 
-    # -----------------------------------------------------
-    # Load services from JSON file
-    # services.json format:
-    # {
-    #   "598470": {"name": "Dietitian Session", "fee": 45.00},
-    #   "883948": {"name": "Aerobics Exercise Session", "fee": 25.00}
-    # }
-    # -----------------------------------------------------
+        with open(file_path, "r") as f:
+            self.services = json.load(f)
+
     def load_services(self):
         try:
             with open("chocan/data/services.json", "r") as file:
@@ -32,8 +29,12 @@ class ServiceDirectory:
     # Returns None if not found
     # -----------------------------------------------------
     def lookup(self, code):
-        code = str(code)
-        return self.services.get(code, None)
+        if code not in self.services:
+            return None
+
+        name = self.services[code]["name"]
+        fee = float(self.services[code]["fee"])   # <-- FIX HERE
+        return name, fee
 
     # -----------------------------------------------------
     # Print full directory (for debugging)
