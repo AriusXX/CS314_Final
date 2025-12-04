@@ -1,4 +1,4 @@
-from models.member import Member
+from models.member import MemberDatabase
 from models.provider import Provider
 from models.service_directory import ServiceDirectory
 from models.service_record import ServiceRecord
@@ -15,15 +15,15 @@ def main_menu():
 
 def main():
     directory = ServiceDirectory()
-    member = Member()
+    member_db = MemberDatabase()
     while True:
         choice = main_menu()
 
         if choice == "1":
             print("\n--- Validate Member ---")
-            member_number = input("Enter member number: ")
-            # TODO: call member validation function
-            print("Validation feature not implemented yet.\n")
+            member_number = input("Enter member number: ").strip()
+            status = member_db.validate_member(member_number)
+            print(status + "\n")
 
         elif choice == "2":
             print("\n--- Bill ChocAn for Service ---")

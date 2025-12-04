@@ -1,0 +1,18 @@
+{
+  "111111111": {
+    "name": "Alice Example",
+    "address": "123 Main St",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97201",
+    "status": "active"
+  },
+  "222333444": {
+    "name": "Bob Test",
+    "address": "456 Oak Ave",
+    "city": "Eugene",
+    "state": "OR",
+    "zip": "97401",
+    "status": "suspended"
+  }
+}
