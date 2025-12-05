@@ -1,0 +1,4 @@
+====== Summary Report ======
+Total Providers Paid: 1
+Total Services Provided: 2
+Total Overall Fee: $90.00

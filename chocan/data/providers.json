@@ -1,0 +1,16 @@
+{
+  "123456789": {
+    "name": "Dr. Dietitian",
+    "address": "789 Health Rd",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97205"
+  },
+  "987654321": {
+    "name": "Coach Cardio",
+    "address": "100 Fitness Blvd",
+    "city": "Salem",
+    "state": "OR",
+    "zip": "97301"
+  }
+}
