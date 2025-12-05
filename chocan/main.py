@@ -106,7 +106,7 @@ def main():
     provider_db = ProviderDatabase()
     directory = ServiceDirectory()
     chocan_data = ChocAnData()
-    member = Member()
+    #member = Member()
     while True:
         choice = main_menu()
 
