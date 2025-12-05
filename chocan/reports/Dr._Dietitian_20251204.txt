@@ -1,0 +1,19 @@
+Provider Name: Dr. Dietitian
+Provider Number: 123456789
+Address: 789 Health Rd, Portland, OR 97205
+
+Date of Service: 11-30-2025
+Member Name: Bob Test
+Service Code: 598470
+Service Name: Dietitian Session
+Fee: $45.00
+
+Date of Service: 07-30-2025
+Member Name: Alice Example
+Service Code: 598470
+Service Name: Dietitian Session
+Fee: $45.00
+
+----- Totals -----
+Total Consultations: 2
+Total Fee to Provider: $90.00

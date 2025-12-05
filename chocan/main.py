@@ -1,8 +1,8 @@
-from models.member import MemberDatabase
-from models.provider import ProviderDatabase, Provider
-from models.service_directory import ServiceDirectory
-from models.service_record import ServiceRecord
-from models import reports
+from chocan.models.member import MemberDatabase
+from chocan.models.provider import ProviderDatabase, Provider
+from chocan.models.service_directory import ServiceDirectory
+from chocan.models.service_record import ServiceRecord
+from chocan.models import reports
 
 class ChocAnData:
     """Mock Data Manager for Validation (as implemented previously)"""
