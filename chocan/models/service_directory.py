@@ -33,8 +33,8 @@ class ServiceDirectory:
             return None
 
         name = self.services[code]["name"]
-        fee = float(self.services[code]["fee"])   # <-- FIX HERE
-        return name, fee
+        fee = float(self.services[code]["fee"])
+        return (name, fee)   # <-- return tuple
 
     # -----------------------------------------------------
     # Print full directory (for debugging)

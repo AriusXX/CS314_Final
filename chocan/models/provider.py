@@ -6,6 +6,7 @@ from .member import MemberDatabase
 from .service_directory import ServiceDirectory
 from .service_record import ServiceRecord
 
+
 # Provider Data Structure
 class Provider:
     def __init__(self, name, number, address, city, state, zip_code):
