@@ -1,0 +1,4 @@
+Member name: Bob Test
+Member number: 222333444
+Address: 456 Oak Ave, Eugene, OR 97401
+
